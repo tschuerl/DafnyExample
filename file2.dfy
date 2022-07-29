@@ -1,6 +1,9 @@
 
 module S {
 
+
+
+// BOOM NOW YOU SEE ME
   datatype foo = Bar(x: int) | Baz(y: string)
 
   datatype seqOfFoo = A1(s: seq<foo>) | A2
